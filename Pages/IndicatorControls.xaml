@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MauiControls.Pages.IndicatorControls"
+             Title="Indicator Controls"
+             BackgroundColor="#EAEEFA">
+    <ScrollView>
+        <VerticalStackLayout Padding="20" Spacing="10">
+            <Frame BackgroundColor="#EAEEFA">
+                <ActivityIndicator x:Name="activityIndicator" IsRunning="True" />
+            </Frame>
+            <Button Text="Activity Indicator" x:Name="activityIndicatorButton" Clicked="activityIndicatorButton_Clicked" />
+
+            <Frame BackgroundColor="#EAEEFA">
+                <ProgressBar Progress=".5" ProgressColor="Red" />
+            </Frame>
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>

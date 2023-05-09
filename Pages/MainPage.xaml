@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MauiControls.Pages.MainPage"
+             Title=".NET MAUI Controls"
+             BackgroundColor="#EAEEFA">
+    <FlexLayout Direction="Column">
+        <VerticalStackLayout FlexLayout.Grow="1" Padding="20" Spacing="10" VerticalOptions="End">
+            <Button x:Name="commonControlsButton" BackgroundColor="#F25365" Text="Common Controls" TextColor="White" Clicked="commonControlsButton_Clicked" />
+            <Button x:Name="actionControlsButton" BackgroundColor="#F25365" Text="Action Controls" TextColor="White" Clicked="actionControlsButton_Clicked" />
+            <Button x:Name="inputControlsButton" BackgroundColor="#F25365" Text="Input Controls" TextColor="White" Clicked="inputControlsButton_Clicked" />
+            <Button x:Name="indicatorControlsButton" BackgroundColor="#F25365" Text="Indicator Controls" TextColor="White" Clicked="indicatorControlsButton_Clicked" />
+            <Button x:Name="drawingControlsButton" BackgroundColor="#F25365" Text="Drawing Controls" TextColor="White" Clicked="drawingControlsButton_Clicked" />
+        </VerticalStackLayout>
+        <VerticalStackLayout BackgroundColor="#181C3F" Padding="10">
+            <Label Text="Coding Droplets" 
+               TextColor="White" 
+               FontAttributes="Bold"
+               HorizontalOptions="Center" />
+        </VerticalStackLayout>
+    </FlexLayout>
+</ContentPage>
